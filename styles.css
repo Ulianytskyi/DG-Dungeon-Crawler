@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.square-temp {
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+}
+
+.cube {
+    position: relative;
+    left: 100px;
+}
+
+.front {
+    width: 200px; 
+    height: 200px;
+    background: red;
+    left: 50px;
+    position: relative;
+}
+  
+.top img {
+    position: relative;
+    top: 208px;
+    width: 300px; 
+    height: 50px; 
+    clip-path: polygon(0 0, 300px 0px, 250px 50px, 50px 50px);
+}
+
+.left img {
+    position: relative;
+    top: 154px;
+    width: 50px; 
+    height: 300px; 
+    clip-path: polygon(0px 0px, 50px 50px, 300px 50px, 0px 300px);
+    
+}
+
+.right img {
+    position: relative;
+    top: -150px;
+    left: 250px;
+    width: 50px; 
+    height: 300px; 
+    clip-path: polygon(50px 0px, 0px 50px, 0px 250px, 50px 300px);
+}
+
+.down img {
+    position: relative;
+    top: -200px;
+    width: 300px; 
+    height: 50px; 
+    clip-path: polygon(50px 0, 250px 0px, 305px 50px, 0px 50px);
+}
