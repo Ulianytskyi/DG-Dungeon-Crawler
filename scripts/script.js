@@ -20,9 +20,11 @@ contentField.style.margin = 'auto';
 
 
 
+// select disble -----------------------------------------
 
-
-
+document.addEventListener('selectstart', function (e) {
+    e.preventDefault(); // Відмінити подію виділення тексту
+  });
 
 
 

@@ -1,0 +1,75 @@
+.cube {
+    left: 100px;
+    position: relative;
+}
+
+.front {
+    width: 300px; 
+    height: 300px;
+    background: red;
+    top: 180px;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+}
+.front img {
+    width: 120%;
+}
+  
+.top {
+    perspective: 500px; 
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    position: relative;
+}
+
+.top img {
+    width: 100%;
+    height: 100%;
+    transform: rotateX(-73deg) translateZ(0px);
+}
+
+.left {
+    perspective: 500px; 
+    width: 300px;
+    height: 300px;
+    top: -150px;
+    left: -150px;
+    position: relative;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+    transform: rotateY(73deg) translateZ(0px);
+}
+
+.right {
+    perspective: 500px; 
+    width: 300px;
+    height: 300px;
+    top: -450px;
+    left: 150px;
+    position: relative;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    transform: rotateY(-73deg) translateZ(0px);
+}
+
+.down {
+    perspective: 500px; 
+    width: 300px;
+    height: 300px;
+    top: -600px;
+    position: relative;
+}
+
+.down img {
+    width: 100%;
+    height: 100%;
+    transform: rotateX(73deg) translateZ(0px);
+}
